@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nav-Bar -->
+    <div id="nav-bar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="login(this)">Login</button>
+    </div>
+    <!-- Main -->
+    <div id="main">
+        <!-- Col-left -->
+        <div id="col-left">
+            <div class="ninja">
+                <div class="ninja-left">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <!-- Get an Alert when Ninja is clicked -->
+                    <button class="likes" onclick="alert('Ninja was liked!')">13 likes</button>
+                </div>
+                <div class="ninja-right">
+                    <p class="info">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <!-- Col-left Bottom -->
+            <div class="ninja">
+                <div class="ninja-left">
+                    <h2>ninja</h2>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <!-- Get an Alert when Ninja is clicked -->
+                    <button class="likes" onclick="alert('Ninja was liked!')">13 likes</button>
+                </div>
+                <div class="ninja-right">
+                    <p class="info">A <a href="#">Programmer</a> who breaks down problems with <a href="#">Zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <!-- Col-right -->
+        <div id="col-right">
+            <div id="definition">
+                <p>Dojonary is defined by <b>You</b> </p>
+                <button onclick="removeElement(this)">Add Definition</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
